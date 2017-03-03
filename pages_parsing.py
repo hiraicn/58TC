@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
 import requests
 import time
@@ -5,8 +7,8 @@ import pymongo
 
 client = pymongo.MongoClient('localhost', 27017)
 ceshi = client['ceshi']
-url_list = ceshi['url_list4']
-item_info = ceshi['item_info4']
+url_list = ceshi['url_list3']
+# item_info = ceshi['item_info3']
 
 
 # 在最左边是在python 中对象的名称，后面的是在数据库中的名称

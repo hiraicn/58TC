@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
 import requests
 
@@ -18,7 +20,6 @@ get_index_url(start_url)
 
 channel_list = '''
     http://wh.58.com/shouji/
-    http://wh.58.com/shoujihao/
     http://wh.58.com/tongxunyw/
     http://wh.58.com/danche/
     http://wh.58.com/fzixingche/

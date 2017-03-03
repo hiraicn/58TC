@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from multiprocessing import Pool
 from channel_extact  import channel_list
 from pages_parsing   import get_links_from
